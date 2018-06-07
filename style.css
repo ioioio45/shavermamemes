@@ -1,17 +1,26 @@
-body {
-    margin: 0;
-    background-image: url();
-    background: #888;
-}
 
+body {
+    color: white;
+}
 .main {
     height: 1400px;
-    background-image: url(pattern.jpg);
+    background-image: url(cook.jpg);
     box-sizing: border-box;
     padding: 100px -220px;
 }
 
-.function {}
+.function {
+    opacity: 0.5;
+}
+.function img{
+    opacity: 2;
+}
+.function p {
+opacity: 2;
+}
+.function h2 {
+opacity: 2;     
+}
 
 .header {
     height: 100px;
@@ -22,7 +31,9 @@ body {
 }
 
 
-
+.patt {
+    background-image: url(images/cook.jpg);
+}
 
 .footer {
     background: black;
@@ -50,18 +61,17 @@ body {
 .continue_text {}
 
 .function {
-    height: 200px;
-    width: 800px;
+    height: 300px;
+    width: 98%;
     text-align: left;
     font-size: 20px;
     font-family: arial;
-    margin-bottom: 80px;
+    margin-bottom: 5px;
     background: #a8d5af;
-    border-radius: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    border: 2px solid black;
-    margin-left: 300px
+    border-radius: 5px;
+    margin-left: 1%;
+
+
 }
 
 .function img {
@@ -116,14 +126,14 @@ body {
 
 .function_right {
     height: 400px;
-    width: 1443px;
+    width: 100%;
     text-align: left;
     font-size: 20px;
     font-family: arial;
-    margin-bottom: 80px;
-    background: #a8d5af;
-    border: 2px solid black;
+    margin-bottom: 0px;
+    
     margin-left :0px;
+    background-image: url(images/cook.jpg);
     
     
 }
@@ -185,5 +195,4 @@ body {
    
 
 }
-
 
